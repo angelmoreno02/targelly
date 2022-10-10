@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: cadetblue;
+    
+}
+.containe{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    justify-content :center;
+    
+    
+}
+.cart{
+    width: 300px;
+    height: 50%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.637);
+    box-shadow: 0px 1px 10px rgba(5, 5, 5, 0.377);
+    cursor: default;
+    transition: all 400ms ease;
+    border-top-left-radius:15% ,15;
+    
+
+}
+.cart:hover{
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.712);
+    transform:translateY(-3%);
+}
+
+.cart img{
+    width: 100%;
+    height: 210px;
+    border-radius: 20%;
+    
+
+
+}
+.cart .conte{
+    padding: 15px;
+    text-align: center;
+
+}
+
